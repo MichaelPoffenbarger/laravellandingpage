@@ -1,0 +1,222 @@
+body {
+    font-family: 'Arvo' serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center, space-between;
+    height: 100vh;
+    
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+    background-color: #f7f3f3;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    font-family: 'Arvo', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 14px;
+    color: black;
+}
+
+h4 {
+    margin-left: 10%;
+    background-color: #f7f3f3;
+    margin-top: 2%;
+    font-family: 'Arvo', serif;
+    color: black;
+}
+
+.laraSpan {
+    font-family: 'Arvo', serif;
+    color: #4CB690;
+
+}
+
+.button {
+    background-color: #4CB690;
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Add this line */
+    align-items: center; /* Add this line */
+    font-size: 14px;
+    margin-top: 1%;
+    margin-right: 10%;
+    cursor: pointer;
+    font-family: 'Arvo', serif;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.topDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    height: 35%;
+    background-color: #f7f3f3;
+    color: rgb(0, 0, 0);
+    
+}
+
+.contentLeft {
+    font-family: 'Arvo', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
+    background-color: #f7f3f3;
+    color: rgb(0, 0, 0);
+    
+    letter-spacing: 4px;
+}
+
+.contentRight {
+    font-family: 'Arvo', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+    height: 100%;
+    background-color: #f7f3f3;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.middleContent {
+    height: 35%;
+    line-height: 2px;
+    letter-spacing: 4px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    padding-left: 4%;
+    font-family: 'Arvo', serif;
+    background-color: #4CB690;
+}
+
+.middleLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+    height: 100%;
+    background-color: #4CB690;
+    margin-left: 6%;
+}
+
+.middleRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #4CB690;
+    
+}
+
+.h1Main {
+    font-family: 'Arvo', serif;
+    color: #000000;
+    font-size: 40px;
+    justify-content: start;
+    align-items: start;
+    display: flex;
+    margin-left: 0;
+
+}
+
+.h1 {
+    font-family: 'Arvo', serif;
+    color: #000000;
+    font-size: 40px;
+    justify-content: start;
+    align-items: start;
+    display: flex;
+    margin-left: 0;
+    opacity: 0.3;  
+
+}
+
+.spanRacode {
+    color: black;
+    opacity: 0.3;
+}
+
+.btnExecute {
+    background-color: #D9D9D9;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-left: 10%;
+    padding: 0px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 6px;
+    cursor: pointer;
+    font-family: 'Arvo', serif;
+    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 23%;
+    background-color: #272525;
+    color: #D9D9D9;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.fab fa-apple {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-left: 4%;
+    color: white;
+    
+}
